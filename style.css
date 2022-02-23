@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.nav {
+  height: 54px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav .container .logo {
+  width: 129px;
+  height: 29px;
+}
+
+.menus .dp {
+  height: 22px;
+  width: 22px;
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+.menus .dp img {
+  height: 22px;
+  width: 22px;
+  border-radius: 22px;
+}
+
+.search-box {
+  height: 28px;
+  width: 215px;
+}
+
+.search-box input {
+  height: 25px;
+  width: 210px;
+  border: 1px solid rgba(190, 190, 190, 0.493);
+  outline: none;
+  padding-left: 10px;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+}
+.menus a {
+  margin-right: 22px;
+}
+.menus a i {
+  font-size: 22px;
+}
+
+.main-body {
+  margin-top: 40px;
+}
+
+.main-nav {
+  width: 293px;
+  position: sticky;
+}
+.user-day {
+  width: 614px;
+  height: 118px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.day img {
+  height: 56px;
+  width: 56px;
+  border-radius: 56px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.day p {
+  font-size: 10px;
+  color: rgb(51, 51, 51);
+  margin-top: 10px;
+  letter-spacing: 0.01em;
+  max-width: 74px;
+}
+
+.fake {
+  height: 62px;
+  width: 62px;
+  border-radius: 62px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-user {
+  width: 614px;
+  margin-top: 40px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+.single-user .post-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+}
+.single-user .post-nav img {
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  margin-left: 15px;
+}
+
+.dotdot p{
+    height: 3px;
+    width: 3px;
+    border-radius: 3px;
+    background-color: rgb(31, 31, 31);
+    margin-right: 3px;
+}
+
+.dotdot {
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+    height: 20px;
+    align-items: center;
+}
+.post-nav .user-pro{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.post-nav .user-pro p{
+    margin-left: 10px;
+    font-size: 14px;
+    text-transform : lowercase;
+}
+
+.post-picture{
+    width: 100%;
+}
+
+.post-picture img{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.footer svg{
+    margin-left: 15px;
+    stroke: black;
+}
+
+.right-side {
+    margin-right: 15px;
+}
+.liked-by {
+    display: flex;
+    margin-left: 15px;
+}
+
+.liked-by img{
+    height : 20px;
+    width : 20px;
+    border-radius: 20px;
+
+
+}
+
+.liked-by p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.post-text{
+    font-size: 14px ;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.post-text{
+    font-weight: 300;
+}
+
+.hours-ago{
+    color: rgba(128, 128, 128, 0.602);
+    margin-left: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.main-x{
+    display: flex;
+    
+}
+
+.main-nav{
+    width: 320px;
+    overflow: hidden;
+}
+
+.user-pro img{
+    height: 56px;
+    width: 56px;
+    border-radius: 65px;
+}
+
+.user-pro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.user-pro .left-side{
+    display: flex;
+    align-items: center;
+}
+
+.user-pro .left-side .names h1{
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.user-pro .left-side .names h2{
+    font-size: 12px;
+    color: rgb(144, 144, 144);
+    font-weight: 300;
+}
+
+.user-pro .left-side .names{
+    margin-left: 15px;
+}
+
+.user-pro .button{
+    background-color: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 153, 255);
+}
+.user-pro p{
+    color: rgb(0, 119, 255);
+    cursor: pointer;
+    font-weight: 300;
+}
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.suggestions .left{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+
+.suggestions .right{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.suggestions .suggestion-photo{
+    height : 32px;
+    width: 32px;
+}
+
+.sugges{
+    margin-top: 20px;
+}
+
+.newfeed{
+  display: flex;
+  flex-direction: column;
+}
